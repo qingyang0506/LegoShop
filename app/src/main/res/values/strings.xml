@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">se306project1</string>
+    <string name="app_title">LEGO</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login_in">Login</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="top_pick">Top Pick</string>
+    <string name="recommended_for_you">Recommend For You</string>
+    <string name="shop_by_category">Shop By Theme</string>
+    <string name="price_tag">${price}</string>
+    <string name="like_number">{likeCount}</string>
+    <string name="stock_number">{stockCount}</string>
+    <string name="greeting">Welcome, {username}!</string>
+    <string name="cart_product_amount">{amount}</string>
+    <string name="cart_select_all">Select All</string>
+    <string name="cart_checkout">CHECKOUT</string>
+    <string name="stock_label">Stock: </string>
+    <string name="add_to_cart_button">Add to Cart</string>
+    <string name="likes_sort">Likes</string>
+    <string name="price_sort">Price</string>
+    <string name="no_searching_result">No Result matching your keyword</string>
+    <string name="product_name_placeholder">product name</string>
+    <string name="amount_placeholder">0</string>
+    <string name="price_placeholder">$199.90</string>
+    <string name="image_description_placeholder">product image</string>
+    <string name="category_arrow_description">forward arrow</string>
+    <string name="greeting_text_placeholder">Welcome, Frank!</string>
+    <string name="like_count_placeholder">0</string>
+    <string name="in_stock">In Stock</string>
+    <string name="low_stock">Low Stock</string>
+    <string name="no_stock">No Stock</string>
+</resources>

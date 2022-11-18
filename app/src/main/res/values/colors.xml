@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--three theme colors    -->
+    <color name="yellow_main">#FFCF03</color>
+    <color name="red_main">#D01012</color>
+    <color name="orange_main">#FD8023</color>
+    <!--    color for the "low stock"-->
+    <color name="orange_100">#FF9900</color>
+    <!--    color for the "out of stock-->
+    <color name="red_100">#FF0000</color>
+    
+    <color name="gray_100">#909090</color>
+    <color name="gray_200">#868686</color>
+    <color name="gray_300">#777777</color>
+    <color name="dark_gray">#333333</color>
+    <color name="stroke">#ffff52</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="technic">#009900</color>
+    <color name="star_war">#333333</color>
+    <color name="city">#0000AA</color>
+
+</resources>

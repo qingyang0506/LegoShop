@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_main" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/suggestion_recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/category_title_image_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/title_lego_xl" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/category_title_image_view"
+                        android:padding="10dp"
+                        android:scrollbars="vertical">
+
+                        <TextView
+                            android:id="@+id/recommended_for_you"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/recommended_for_you"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/top_pick_product"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/recommended_for_you"
+                            android:orientation="vertical">
+
+                            <ProgressBar
+                                android:id="@+id/top_pick_progressbar"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="32dp"
+                                android:indeterminateTint="@color/orange_main" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/top_pick_product_recycler_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:scrollbars="horizontal"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/shop_by_category_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/top_pick_product"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/shop_by_category"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/category_recycler_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/shop_by_category_textview"
+                            android:layout_marginTop="8dp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/app_drawer_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/drawer_head_layout"
+        app:menu="@menu/drawer_navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
