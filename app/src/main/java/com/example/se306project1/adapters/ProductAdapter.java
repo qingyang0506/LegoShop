@@ -25,7 +25,6 @@ import java.util.Locale;
 
 /**
  * @Description: This is ProductAdapter class which used for render the product list in productActivity
- * @author: Frank Ji
  * @date: 13/08/2022
  */
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {

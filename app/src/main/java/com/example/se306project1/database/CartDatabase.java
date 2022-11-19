@@ -14,7 +14,6 @@ import java.util.Map;
 
 /**
  * @Description: This is cartDatabase class which used for crud operation for cart products
- * @author: Qingyang Li
  * @date: 17/08/2022
  */
 public class CartDatabase extends ProductDatabase {

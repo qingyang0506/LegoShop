@@ -41,7 +41,6 @@ import java.util.Stack;
 
 /**
  * @Description: This is ProductActivity class which used to manage productActivity pages
- * @author: Frank Ji
  * @date: 12/08/2022
  */
 public class ProductActivity extends AppCompatActivity

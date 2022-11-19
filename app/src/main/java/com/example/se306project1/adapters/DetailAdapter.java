@@ -14,7 +14,6 @@ import java.util.List;
 
 /**
  * @Description: This is DetailAdapter class which used for viewPager in DetailActivity
- * @author: Qingyang Li
  * @date: 11/08/2022
  */
 public class DetailAdapter extends PagerAdapter {

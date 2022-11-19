@@ -2,7 +2,6 @@ package com.example.se306project1.database;
 
 /**
  * @Description: This is IUserDatabase class which used for some operations for userDatabase
- * @author: XiaoXiao Zhuang
  * @date: 16/08/2022
  */
 public interface IUserDatabase {

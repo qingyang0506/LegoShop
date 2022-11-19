@@ -6,7 +6,6 @@ import java.lang.StringBuilder;
 
 /**
  * @Description: This is PasswordEncripter class which is used for Encryption of passwords
- * @author: XiaoXiao Zhuang
  * @date: 13/08/2022
  */
 public class PasswordEncripter {

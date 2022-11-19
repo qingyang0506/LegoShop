@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @Description: This is ActivityState class which is used for every Activity class
- * @author: Frank Ji
  * @date: 14/08/2022
  */
 public class ActivityState {

@@ -37,7 +37,6 @@ import java.util.Locale;
 
 /**
  * @Description: This is DetailActivity class which used to manage DetailActivity pages
- * @author: Qingyang Li
  * @date: 10/08/2022
  */
 public class DetailActivity extends AppCompatActivity

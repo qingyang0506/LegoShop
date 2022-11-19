@@ -23,7 +23,6 @@ import java.util.List;
 
 /**
  * @Description: This is SuggestAdapter class which used for the suggest list in ProductSearcher
- * @author: Frank Ji
  * @date: 15/08/2022
  */
 public class SuggestionAdapter extends RecyclerView.Adapter<SuggestionAdapter.SuggestionViewHolder>

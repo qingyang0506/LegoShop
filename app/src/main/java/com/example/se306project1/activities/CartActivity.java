@@ -35,7 +35,6 @@ import java.util.List;
 
 /**
  * @Description: This is cartActivity class which used to manage cartActivity pages
- * @author: Frank Ji
  * @date: 12/08/2022
  */
 public class CartActivity extends AppCompatActivity

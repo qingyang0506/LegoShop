@@ -10,7 +10,6 @@ import java.util.Locale;
 
 /**
  * @Description: This is CartState class which is used for managing the cart state in cartActivity
- * @author: Frank Ji
  * @date: 18/08/2022
  */
 public class CartState {

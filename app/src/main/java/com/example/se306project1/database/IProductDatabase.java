@@ -2,7 +2,6 @@ package com.example.se306project1.database;
 
 /**
  * @Description: This is IProductDatabase interface which used for crud operation for productDatabase
- * @author: Qingyang Li
  * @date: 17/08/2022
  */
 public interface IProductDatabase {

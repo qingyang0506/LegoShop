@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * @Description: This is Product class which is implemented IProduct interface
- * @author: Frank Ji
  * @date: 9/08/2022
  */
 public class Product implements IProduct {

@@ -24,7 +24,6 @@ import com.example.se306project1.utilities.UserState;
 
 /**
  * @Description: This is MainActivity class which used to manage mainActivity.xml
- * @author: XiaoXiao Zhuang
  * @date: 11/08/2022
  */
 public class MainActivity extends AppCompatActivity {

@@ -20,7 +20,6 @@ import java.util.List;
 
 /**
  * @Description: This is TopPickAdapter class which used for top likes product in categoryActivity
- * @author: Frank Ji
  * @date: 16/08/2022
  */
 public class TopPickAdapter extends RecyclerView.Adapter<TopPickAdapter.TopPickViewHolder> {

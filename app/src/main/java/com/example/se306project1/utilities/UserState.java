@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * @Description: This is UserState class which is used for managing the User state.
- * @author: XiaoXiao Zhuang
  * @date: 12/08/2022
  */
 

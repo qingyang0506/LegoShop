@@ -26,7 +26,6 @@ import java.util.Locale;
 
 /**
  * @Description: This is CartProductAdapter class which used for cart product in cartActivity
- * @author: Frank ji
  * @date: 12/08/2022
  */
 public class CartProductAdapter extends RecyclerView.Adapter<CartProductAdapter.CartProductViewHolder> {
@@ -40,7 +39,6 @@ public class CartProductAdapter extends RecyclerView.Adapter<CartProductAdapter.
 
         /**
          * @Description: retrieve the used UI element by id
-         * @author: Frank ji
          * @date: 12/08/2022
          */
         public CartProductViewHolder(final View view) {

@@ -18,7 +18,6 @@ import com.google.android.material.navigation.NavigationView;
 
 /**
  * @Description: This is Drawer class which used to manage top bar of app( slide bar, search button)
- * @author: Frank Ji
  * @date: 13/08/2022
  */
 public class Drawer {

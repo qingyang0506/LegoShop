@@ -37,7 +37,6 @@ import java.util.List;
 
 /**
  * @Description: This is CategoryActivity class which used to manage CategoryActivity pages
- * @author: XiaoXiao Zhuang
  * @date: 10/08/2022
  */
 public class CategoryActivity extends AppCompatActivity

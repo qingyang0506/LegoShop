@@ -12,7 +12,6 @@ import java.util.Map;
 
 /**
  * @Description: This is LikeDatabase class which used for crud operation for likes products
- * @author: Qingyang Li
  * @date: 18/08/2022
  */
 public class LikesDatabase extends ProductDatabase {

@@ -2,7 +2,6 @@ package com.example.se306project1.models;
 
 /**
  * @Description: This is Category abstract class which used for three categories and implement the ICategory interface
- * @author: XiaoXiao Zhuang
  * @date: 9/08/2022
  */
 public abstract class Category implements ICategory {

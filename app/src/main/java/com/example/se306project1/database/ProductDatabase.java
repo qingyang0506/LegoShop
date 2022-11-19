@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  * @Description: This is ProductDatabase class which used for crud operation for products
- * @author: Qingyang Li
  * @date: 18/08/2022
  */
 public class ProductDatabase implements IProductDatabase {

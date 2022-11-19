@@ -21,7 +21,6 @@ import java.util.List;
 
 /**
  * @Description: This is ProductSearch class which used for search functionality in the top bar
- * @author: QingyangLi
  * @date: 14/08/2022
  */
 public class ProductSearcher {

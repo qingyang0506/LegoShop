@@ -6,7 +6,6 @@ import androidx.annotation.NonNull;
 
 /**
  * @Description: This is StringBuilder class which is used for processing the context string
- * @author: Frank Ji
  * @date: 14/08/2022
  */
 public class StringBuilder {

@@ -21,7 +21,6 @@ import java.util.List;
 
 /**
  * @Description: This is CategoryAdapter class which used for category in CategoryActivity
- * @author: XiaoXiao Zhuang
  * @date: 11/08/2022
  */
 

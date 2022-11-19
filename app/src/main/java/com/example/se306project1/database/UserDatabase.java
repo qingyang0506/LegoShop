@@ -16,7 +16,6 @@ import java.util.Objects;
 
 /**
  * @Description: This is UserDatabase class which used for operations for users
- * @author: XiaoXiao Zhuang
  * @date: 18/08/2022
  */
 public class UserDatabase implements IUserDatabase {
